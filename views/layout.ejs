@@ -1,0 +1,42 @@
+<!DOCTYPE HTML> 
+<html lang="en"> 
+<head> 
+<title>Sometimes Michelle</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta http-equiv="Content-Language" content="en-us"> 
+
+<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.color.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head> 
+ 
+<body>
+<div id="overusedTopBorder"></div>
+<div id="boxThatContains">
+  <div id="getsYouPlaces">
+    <a href="/home"<% if(page === 'home') { %> class="selected"<% } %>>Home</a><br>
+    <a href="/projects"<% if(page === 'projects') { %> class="selected"<% } %>>Projects</a><br>
+    <a href="/design"<% if(page === 'design') { %> class="selected"<% } %>>Design</a><br>
+    <a href="/photo"<% if(page === 'photo') { %> class="selected"<% } %>>Photography</a><br><br>
+    <a href="/contact"<% if(page === 'contact') { %> class="selected"<% } %>>Contact</a>
+  </div>
+
+  <div id="notReallyHeader">
+    <div id="notAnImage">
+      Michelle Bu
+    </div>
+    
+    <span class="notATopTab">
+      <%- page%>
+    </span>
+  </div>
+
+
+<%-body%>
+</div>
+</body> 
+</html> 

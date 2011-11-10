@@ -1,0 +1,134 @@
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+a {outline: none;} /* Gets rid of Firefox's dotted borders */
+a img {border: none;} /* Gets rid of IE's blue borders */
+
+/* More semicolons*/
+
+html, body {
+  font-family: 'Terminal Dosis', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#overusedTopBorder {
+  width: 100%;
+  height: 5px;
+  background-color: #EFE583;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+#boxThatContains {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#getsYouPlaces {
+  height: 100%;
+  top: 80px;
+  position: fixed;
+  width: 200px;
+  text-align: right;
+  z-index: 99;
+}
+
+#getsYouPlaces a {
+  font-size: 25px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition:color 250ms ease-in;  
+  -moz-transition:color 250ms ease-in;  
+  -o-transition:color 250ms ease-in;  
+  transition:color 250ms ease-in;  
+}
+
+a:hover {
+  color: #CCB825;
+}
+
+#notAnImage {
+  font-family: 'Pompiere', cursive;
+  text-shadow: 2px 2px 1px #EAE6CA;
+  color: #000;
+  font-size: 100px;
+  line-height: 120px;
+  padding-left: 30px;
+  float: left;
+  padding-top: 20px;
+}
+
+.notATopTab {
+  margin-bottom: -10px;
+  text-transform: uppercase;
+  padding: 20px;
+  height: 100%;
+  background-color: #EFE583;
+  float: right;
+  font-size: 25px;
+}
+  
+
+#notReallyHeader {
+  position: fixed;
+  height: 150px;
+  bottom: 0px;
+  width: 800px;
+  z-index: 100;
+  background-color: #fff;
+}
+
+#contentAndHappy {
+  z-index: 99;
+  margin-left: 200px;
+  padding: 20px;
+  width: 560px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+h2, h3, h4 {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  border-bottom: 1px dashed #EFE583;
+  text-align: center;
+}
+
+.selected {
+  color: #CCB825;
+}
+
+.fancyDisplay {
+  border-radius: 20px 0 20px 0;
+  border: 1px solid #EFE583;
+  -webkit-transition:opacity 250ms ease-in;  
+  -moz-transition:opacity 250ms ease-in;  
+  -o-transition:opacity 250ms ease-in;  
+  transition:opacity 250ms ease-in; 
+  width: 133px;
+  height: 133px;
+  padding: 20px;
+  background-color: #FFFDF0;
+  opacity: 1;
+  margin: 5px;
+  float: left;
+}
+
+.fancyDisplay:hover {
+  opacity: 0.6;
+}
+
+.fancyDisplay img {
+  height: 120px;
+  width: 120px;
+}

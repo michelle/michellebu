@@ -1,0 +1,19 @@
+{
+  "author": "Michelle Bu",
+  "name": "michellebu",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michellebu/michellebu.git"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~v0.4.10"
+  },
+  "dependencies":{
+    "express":"",
+    "ejs":"",
+    "mongoskin": ""
+  },
+  "devDependencies": {}
+}
