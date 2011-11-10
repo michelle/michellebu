@@ -27,17 +27,17 @@ app.get('/projects', function(req, res){
 
 
 app.get('/design', function(req, res){
-  res.render('design', {page: 'design', projects: projects});
+  res.render('design', {page: 'design'});
 });
 
 app.get('/photo', function(req, res){
-  res.render('photo', {page: 'photo', people: people});
+  res.render('photo', {page: 'photo'});
 });
 
 app.get('/contact', function(req, res){
   res.render('contact', {page: 'contact'});
 });
 
-app.listen(process.env.PORT || 8082);
+app.listen(process.env.PORT || 8084);
 
 
