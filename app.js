@@ -38,6 +38,22 @@ app.get('/contact', function(req, res){
   res.render('contact', {page: 'contact'});
 });
 
+app.get('/misc', function(req, res){
+  res.render('misc', {page: 'design'});
+});
+
+app.get('/logos', function(req, res){
+  res.render('logos', {page: 'design'});
+});
+
+app.get('/shirts', function(req, res){
+  res.render('shirts', {page: 'design'});
+});
+
+app.get('/info', function(req, res){
+  res.render('info', {page: 'design'});
+});
+
 app.listen(process.env.PORT || 8084);
 
 
