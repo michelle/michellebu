@@ -10,6 +10,7 @@ html, body {
   background-color: #F7F5EB;
 }
 
+
 a {
   text-decoration: none;
   color: #000;
@@ -19,7 +20,7 @@ a {
   transition:color 150ms ease-in; 
 }
 
-#getsYouPlaces a:hover, a:hover {
+a:hover {
   color: #CCB825; 
 }
 
@@ -220,15 +221,7 @@ h5 {
 }
 
 .changeForTheHomeless {
-  color: #000;
-}
-
-.changeForTheHomeless:hover {
-  color: #CCB825;
-  -webkit-transition:color 250ms ease-in;  
-  -moz-transition:color 250ms ease-in;  
-  -o-transition:color 250ms ease-in;  
-  transition:color 250ms ease-in; 
+  color: #fff;
 }
 
 .fancyDisplay:hover {
