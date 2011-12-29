@@ -14,10 +14,10 @@ html, body {
 a {
   text-decoration: none;
   color: #000;
-  -webkit-transition:color 150ms ease-in;  
-  -moz-transition:color 150ms ease-in;  
-  -o-transition:color 150ms ease-in;  
-  transition:color 150ms ease-in; 
+  -webkit-transition:color 150ms linear;  
+  -moz-transition:color 150ms linear;  
+  -o-transition:color 150ms linear;  
+  transition:color 150ms linear; 
 }
 
 a:hover {
@@ -207,10 +207,10 @@ h5 {
 .fancyDisplay {
   border-radius: 20px 0 20px 0;
   border: 3px solid #fff;
-  -webkit-transition:opacity 250ms ease-in;  
-  -moz-transition:opacity 250ms ease-in;  
-  -o-transition:opacity 250ms ease-in;  
-  transition:opacity 250ms ease-in; 
+  -webkit-transition:opacity 250ms linear;  
+  -moz-transition:opacity 250ms linear;  
+  -o-transition:opacity 250ms linear;  
+  transition:opacity 250ms linear; 
   width: 130px;
   height: 130px;
   padding: 20px;
